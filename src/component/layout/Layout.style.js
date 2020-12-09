@@ -3,13 +3,13 @@ import styleSheet from '../style' ;
 const  styles ={
 
     container : {
-        backgroundColor : styleSheet.color.header,
+        backgroundColor : '#6284a9',//styleSheet.color.orange,
         fontFamily : styleSheet.font.roboto,
         letterSpacing : styleSheet.letterspacing
         
     },
     white : {
-        color : '#ffffff'
+     //   color : styleSheet.color.black
     }
 }
 

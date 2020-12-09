@@ -30,12 +30,12 @@ class Layout extends  Component {
             {
                 this.props.login ? 
                 <Container>
-                <Navbar collapseOnSelect expand="lg"  style={styles.container}  variant="dark">
+                <Navbar collapseOnSelect expand="lg"  style={styles.container}  variant="light">
                     <Navbar.Brand as={Link} to="/"  style={styles.white}>SmartGridSystem</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" >
-                        <Nav className="mr-auto" >
-                        <NavDropdown  title="Grid Navigation" id="collasible-nav-dropdown" >
+                        <Nav className="mr-auto" style={styles.white}>
+                        <NavDropdown   title="Grid Navigation" id="collasible-nav-dropdown" >
                             <NavDropdown.Item as={Link} to="/topology" >Topology</NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item as={Link} to="/energy">Energy Balance</NavDropdown.Item>
